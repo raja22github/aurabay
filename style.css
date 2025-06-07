@@ -86,7 +86,7 @@ header #close-menu {
         left: -100%;
         height: 100vh;
         width: 60%;
-        background:linear-gradient(#142a41,#5e7891);
+        background:linear-gradient(#1c2536,#0c4966);
         flex-direction: column;
         align-items: start;
         padding: 3rem 1rem;
@@ -108,4 +108,74 @@ header #close-menu {
       #close-menu {
         display: block;
       }
+}
+
+#hero{
+    background-image: url("images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #ffffff;
+    padding: 0px 20px;
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+#hero .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 20px;
+   
+}
+#hero .container .content,
+#hero .container .image{
+   padding-top: 20px;
+}
+button{
+    background-color: white;
+    color: #1c2536;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+    #hero h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 16px;
+    }
+    #hero .container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    p{
+        font-size: 14px;
+    }
 }
