@@ -110,6 +110,8 @@ header #close-menu {
       }
 }
 
+/* hero section */
+
 #hero{
     background-image: url("images/hero-bg.jpg");
     background-size: cover;
@@ -135,6 +137,12 @@ header #close-menu {
 #hero .container .content,
 #hero .container .image{
    padding-top: 20px;
+}
+
+#hero .container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 button{
     background-color: white;
