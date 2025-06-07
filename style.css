@@ -185,7 +185,7 @@ button{
 }
 #about .container .content,
 #about .container .image{
-   padding-top: 20px;
+    padding-top: 50px;
 }
 #about .container .content{
     display: flex;
