@@ -185,7 +185,7 @@ button{
 }
 #about .container .content,
 #about .container .image{
-    padding-top: 50px;
+   padding-top: 50px;
 }
 #about .container .content{
     display: flex;
@@ -216,7 +216,7 @@ button{
 }
 #contact .container .content,
 #contact .container .map{
-   padding-top: 20px;
+   padding-top: 50px;
 }
 #contact .container .content{
     display: flex;
